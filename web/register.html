@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="css/register.css" />
+</head>
+
+<body>
+    <div class="backgroundDiv">
+
+    </div>
+    <div class="registerDiv">
+        <p class="loginTip">
+            <a style="text-decoration: none" href="index.html">
+                <返回登录页面 </a>
+        </p>
+        <div class="inputDiv">
+
+            <p class="title">注册</p>
+
+            <label for="userName"></label>
+            <input type="text" id="userName" class="input" placeholder="用户名" onblur="userNameOnblur()"><br>
+            <small class="errorInfo" id="userNameErrorInfo">errorInfo</small>
+
+            <label for="chrName"></label>
+            <input type="text" id="chrName" class="input" placeholder="中文名" onblur="chrNameOnblur()">
+            <small class="errorInfo" id="chrNameErrorInfo">errorInfo</small>
+
+            <label for="email"></label>
+            <input type="text" id="email" class="input" placeholder="邮箱" onblur="emailOnblur()">
+            <small class="errorInfo" id="emailErrorInfo">errorInfo</small>
+
+            <br>请选择地区<br>
+            <p>
+                <select id="province" class="area_select">
+					<option value="0" >-请选择省份-</option>
+				</select>
+                <select id="city" class="area_select">
+					<option value="0">-请选择城市-</option>
+				</select>
+                <small class="errorInfo" id="areaErrorInfo">errorInfo</small>
+            </p>
+
+            <label for="password"></label>
+            <input type="password" id="password" class="input" placeholder="密码" onblur="passwordOnblur()">
+            <small class="errorInfo" id="passwordErrorInfo">errorInfo</small>
+
+            <label for="enterPassword"></label>
+            <input type="password" id="enterPassword" class="input" placeholder="确认密码" onblur="enterPasswordOnblur()">
+            <small class="errorInfo" id="enterPasswordErrorInfo">errorInfo</small>
+
+            <p>
+                <input id="registerButton" type="button" value="注册" class="registerButton">
+            </p>
+            <small class="errorInfo" id="registerErrorInfo">errorInfo</small>
+        </div>
+    </div>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/register.js"></script>
+</body>
+
+</html>

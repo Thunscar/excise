@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/resource_controller.css">
+    <script src="js/jquery-3.1.1.min.js">
+    </script>
+    <script src="js/resource_controller.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="user_controller_content">
+        <div id="user_controller_search">
+            <div id="input_div">
+                <input class="input" type="text" placeholder="输入用户名" id="userName">
+                <input class="input" type="text" placeholder="输入姓名" id="chrName">
+                <input class="input" type="text" placeholder="请输入邮箱" id="email">
+                <input class="input" type="text" placeholder="请输入省份" id="province">
+                <input class="input" type="text" placeholder="请输入城市" id="city">
+            </div>
+            <div id="opera_div">
+                <a class="btn" id="search_btn">查找</a>
+                <a class="btn" id="clean_btn">清空</a>
+                <a class="btn" id="insert_btn">增加</a>
+                <a class="btn" id="delete_btn">删除</a>
+                <a class="btn" id="update_btn">修改</a>
+            </div>
+        </div>
+        <div id="user_controller_table">
+            <table border="1" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th width="100px"><input type="checkbox" title="选择" id="all_checkbox">&nbsp;全选</th>
+                        <th width="200px" id="table_userName">
+                            用户名
+                            <img align=right src="images/表头-可排序.png">
+                        </th>
+                        <th width="100px">中文名</th>
+                        <th width="200px">邮箱</th>
+                        <th width="100px" id="table_province">
+                            省份
+                            <img align=right src="images/表头-可排序.png">
+                        </th>
+                        <th width="100px">城市</th>
+                        <th width="200px">操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="text-align: center;" class="tr_even">
+                        <td width="100px"><input type="checkbox" title="选择">&nbsp;全选</td>
+                        <td width="200px">用户名</td>
+                        <td width="100px">中文名</td>
+                        <td width="200px">邮箱</td>
+                        <td width="100px">省份</td>
+                        <td width="100px">城市</td>
+                        <td width="200px">操作</td>
+                    </tr>
+                    <tr style="text-align: center;" class="tr_odd">
+                        <td width="100px"><input type="checkbox" title="选择">&nbsp;全选</td>
+                        <td width="200px">用户名</td>
+                        <td width="100px">中文名</td>
+                        <td width="200px">邮箱</td>
+                        <td width="100px">省份</td>
+                        <td width="100px">城市</td>
+                        <td width="200px">操作</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="user_controller_page">
+            <div id="paging">
+                <span>每页</span>
+                <select id="page_size">
+                <option>5</option>
+                <option selected>10</option>
+                <option>20</option>
+                </select>
+                <span>&nbsp;共</span>
+                <span id="total_data">10</span>
+                <span>条数据&nbsp;</span>
+                <span id="page_num">1</span>
+                <span>页/</span>
+                <span id="total_page">2</span>
+                <span>页</span>
+            </div>
+            <div id="pageNav">
+                <span>首页</span>
+                <span>上一页</span>
+                <span>下一页</span>
+                <span>尾页</span>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="pop_window">
+
+    </div>
+    <div id="pop_window_input">
+        <br>
+        <p id="pop_window_title">注册</p>
+        <label for="userName"></label>
+        <input type="text" id="userName" class="_input" placeholder="用户名" onblur="userNameOnblur()" autocomplete="off">
+        <br><small class="errorInfo" id="userNameErrorInfo">errorInfo</small><br>
+
+        <label for="chrName"></label>
+        <input type="text" id="chrName" class="_input" placeholder="中文名" onblur="chrNameOnblur()" autocomplete="off">
+        <br><small class="errorInfo" id="chrNameErrorInfo">errorInfo</small><br>
+
+        <label for="email"></label>
+        <input type="text" id="email" class="_input" placeholder="邮箱" onblur="emailOnblur()" autocomplete="off">
+        <br><small class="errorInfo" id="emailErrorInfo">errorInfo</small><br>
+
+        <p>请选择地区</p>
+        <select id="province" class="area_select">
+                    <option value="0" >-请选择省份-</option>
+                </select>
+        <select id="city" class="area_select">
+                    <option value="0">-请选择城市-</option>
+                </select>
+        <br><small class="errorInfo" id="areaErrorInfo">errorInfo</small><br>
+
+        <label for="password"></label>
+        <input type="password" id="password" class="_input" placeholder="密码" onblur="passwordOnblur()" autocomplete="off">
+        <br><small class="errorInfo" id="passwordErrorInfo">errorInfo</small><br>
+
+        <label for="enterPassword"></label>
+        <input type="password" id="enterPassword" class="_input" placeholder="确认密码" onblur="enterPasswordOnblur()" autocomplete="off">
+        <br><small class="errorInfo" id="enterPasswordErrorInfo">errorInfo</small><br>
+
+        <input id="operaButton" type="button" value="" class="registerButton">
+        <br><small class="errorInfo" id="registerErrorInfo">errorInfo</small><br>
+        <input id="closeButton" type="button" value="点击关闭" class="registerButton">
+    </div>
+</body>
+
+</html>

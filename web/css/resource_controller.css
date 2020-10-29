@@ -1,0 +1,290 @@
+#table_userName {
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+#table_province {
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+#table_userName.mouse_over {
+    background: rgb(158, 145, 248);
+}
+
+#table_province.mouse_over {
+    background: rgb(158, 145, 248);
+}
+
+table thead tr th img {
+    width: 20px;
+    height: 20px;
+}
+
+table thead tr th.select {
+    background: rgb(158, 145, 248);
+}
+
+#user_controller_content {
+    display: block;
+    width: 90%;
+    min-height: auto;
+    margin-top: 20px;
+    border: black;
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-bottom: 10px;
+    background: #ffffff;
+}
+
+#user_controller_search {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 50px;
+}
+
+#user_controller_table {
+    position: relative;
+    width: 90%;
+    height: auto;
+}
+
+#user_controller_page {
+    width: 90%;
+    height: 40px;
+    line-height: 40px;
+}
+
+#input_div {
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#opera_div {
+    width: 500px;
+    display: inline;
+    position: relative;
+    margin-left: 20px;
+}
+
+.input {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+.input:focus {
+    outline: 0;
+}
+
+.btn {
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    color: black;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+thead tr {
+    background: rgb(255, 247, 138);
+}
+
+tr {
+    height: 30px;
+}
+
+thead {
+    color: green
+}
+
+tbody {
+    color: blue;
+    height: 50px
+}
+
+#paging {
+    font-size: 20px;
+    width: 48%;
+    height: 40px;
+    display: inline-block;
+    text-align: left;
+}
+
+#pageNav {
+    display: inline-block;
+    text-align: right;
+    font-size: 20px;
+    width: 45%;
+    height: 40px;
+    text-align: right;
+}
+
+#pageNav span {
+    cursor: pointer;
+    -moz-user-select: none;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+#page_size {
+    width: 50px;
+    height: 25px;
+}
+
+#page_num {
+    color: red;
+}
+
+tbody tr {
+    cursor: pointer;
+    height: 40px;
+}
+
+tbody tr td {
+    text-align: center;
+}
+
+tbody tr.tr_even {
+    background: rgb(181, 234, 255);
+}
+
+tbody tr.tr_odd {
+    background: rgb(255, 227, 191);
+}
+
+tbody tr.tr_hover {
+    background: rgb(102, 102, 252);
+}
+
+tbody tr.tr_select {
+    background: rgb(102, 102, 252);
+}
+
+#pop_window {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: 100;
+    display: none;
+    background: rgb(187, 184, 184);
+}
+
+#pop_window.show {
+    display: block;
+}
+
+#pop_window_input {
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px #a3a3a3;
+    max-width: 500px;
+    height: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -325px;
+    margin-left: -250px;
+    z-index: 200;
+    display: none;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 120px;
+    padding-right: 120px;
+    overflow: auto;
+}
+
+#pop_window_input.show {
+    display: block;
+}
+
+#pop_window_title {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+._input {
+    font-size: 15px;
+    margin-top: 10px;
+    width: 300px;
+    height: 40px;
+    border: 0;
+    border-radius: 20px;
+    background: #ebebeb;
+    padding-left: 10px;
+}
+
+._input:focus {
+    outline: 0;
+}
+
+.errorInfo {
+    color: red;
+    visibility: hidden;
+}
+
+.errorInfo.error {
+    visibility: visible;
+}
+
+.area_select {
+    background: #ebebeb;
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    margin-top: -10px;
+    border-radius: 20px;
+}
+
+.area_select:focus {
+    outline: 0;
+}
+
+.area_select::selection {
+    border-radius: 10px;
+}
+
+.registerButton {
+    width: 310px;
+    height: 40px;
+    border-radius: 20px;
+    background: cornflowerblue;
+    border: 0;
+    cursor: pointer;
+    font-size: 20px;
+    color: black;
+}
+
+.registerButton:focus {
+    outline: 0;
+}
+
+.registerButton:active {
+    transform: scale(0.99);
+}

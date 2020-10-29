@@ -1,0 +1,95 @@
+<html>
+
+<head>
+    <title>WEB应用开发</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/download.css" />
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/main.js "></script>
+</head>
+
+<body>
+    <!--标题div-->
+    <div id="titleDiv">
+        <div id="title">WEB应用开发</div>
+        <div id="showSelectUnit">
+            <div id="showSelectName">首页</div>
+            <div id="showSelectLine"></div>
+        </div>
+        <div id="userOperator">
+            <div id="downloadInfo">
+                <img id="downloadImage" src="images/下载.png" />
+                <a id="downloadHref">手机客户端下载</a>
+            </div>
+            <div>
+                <div id="user_controller">
+                    <img id="user_controller_icon" src="images/img.png" />
+                    <div id="user_controller_opera">
+                        <span>${User.chrName}</span>
+                        <img id="user_controller_opera_list" src="images/向下箭头.png">
+                    </div>
+                </div>
+                <div id="user_opera_window">
+                    <div id="user_opera_window_unit1" class="user_opera_window_unit">账号管理</div>
+                    <div id="user_opera_window_unit2" class="user_opera_window_unit">切换单位</div>
+                    <div id="user_opera_window_unit3" class="user_opera_window_unit">退出账号</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--菜单栏div-->
+    <div id="menuDiv">
+        <div id="userMenu">
+            <img src="images/img.png" class="userImage" />
+            <div class="userName">
+                ${User.chrName}
+            </div>
+        </div>
+
+        <div id="choiceMenu">
+            <div class="choiceUnit" id="unit1">
+                <div class="unitFont ">首页</div>
+                <img src="images/箭头.png " class="image " id="unitImage1">
+            </div>
+
+            <div class="choiceUnit " id="unit2">
+                <div class="unitFont ">资源下载</div>
+                <img src="images/箭头.png " class="image " id="unitImage2">
+            </div>
+
+            <div class="choiceUnit" id="unit3">
+                <div class="unitFont ">资源管理</div>
+                <img src="images/箭头.png " class="image " id="unitImage3">
+            </div>
+
+            <div class="choiceUnit " id="unit4">
+                <div class="unitFont ">用户管理</div>
+                <img src="images/箭头.png " class="image " id="unitImage4">
+            </div>
+
+            <div class="choiceUnit" id="unit5">
+                <div class="unitFont ">个人中心</div>
+                <img src="images/箭头.png " class="image " id="unitImage5">
+            </div>
+
+        </div>
+    </div>
+    <!--内容界面div-->
+    <div id="contentDiv">
+        <div id="unit1Content">
+            首页
+        </div>
+        <div id="unit2Content">
+
+        </div>
+        <div id="unit3Content">资源管理</div>
+        <div id="unit4Content">用户管理</div>
+        <div id="unit5Content">个人中心</div>
+    </div>
+
+    </div>
+
+</body>
+
+</html>
