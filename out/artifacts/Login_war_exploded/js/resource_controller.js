@@ -1053,7 +1053,7 @@ $(document).ready(function() {
         if ($(this).val() == "") {
             $("#passwordErrorInfo").text("密码不可以为空！");
             $("#passwordErrorInfo").addClass("error");
-        } else if ($("#pop_window_enterPassword").val != "" && $(this).val() != $("#pop_window_enterPassword").val()) {
+        } else if ($("#pop_window_enterPassword").val() != "" && $(this).val() != $("#pop_window_enterPassword").val()) {
             $("#passwordErrorInfo").text("两次输入的密码不一致！");
             $("#passwordErrorInfo").addClass("error");
         } else {

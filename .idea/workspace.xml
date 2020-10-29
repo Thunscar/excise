@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Login:war exploded" />
+      <artifact name="test" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4d92d1d-ea18-402e-982c-a783aa91d342" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/main/user_center/GetUserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/main/user_manager/GetUserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/main/user_center/GetUserList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/main/user_manager/GetUserList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/main/user_center/UpdateUserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/main/user_manager/UpdateUserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/test/test.war" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web/css/resource_controller.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/resource_controller.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/js/resource_controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/resource_controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/test.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,7 +42,7 @@
     <session id="-514925101">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="82" />
+          <entry key="project.closed" value="83" />
           <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.10" value="5" />
           <entry key="project.open.time.11" value="1" />
@@ -200,8 +193,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="285" column="40" lean-forward="true" selection-start-line="285" selection-start-column="40" selection-end-line="285" selection-end-column="40" />
+            <state relative-caret-position="214">
+              <caret line="295" column="17" lean-forward="true" selection-start-line="295" selection-start-column="17" selection-end-line="295" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -440,7 +433,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603983657270" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603984421414" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -651,12 +644,12 @@
       <workItem from="1603850816892" duration="16331000" />
       <workItem from="1603947215796" duration="2347000" />
       <workItem from="1603951259194" duration="1321000" />
-      <workItem from="1603957594176" duration="14291000" />
+      <workItem from="1603957594176" duration="15094000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="312032000" />
+    <option name="totallyTimeSpent" value="312835000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -668,7 +661,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.470922" visible="true" weight="0.26876676" />
@@ -681,7 +674,7 @@
       <window_info id="Web" order="7" sideWeight="0.529078" side_tool="true" weight="0.26876676" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32765958" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4966488" visible="true" weight="0.38297874" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4966488" weight="0.38297874" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1093,8 +1086,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="285" column="40" lean-forward="true" selection-start-line="285" selection-start-column="40" selection-end-line="285" selection-end-column="40" />
+        <state relative-caret-position="214">
+          <caret line="295" column="17" lean-forward="true" selection-start-line="295" selection-start-column="17" selection-end-line="295" selection-end-column="17" />
         </state>
       </provider>
     </entry>
