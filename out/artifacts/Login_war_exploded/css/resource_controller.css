@@ -158,9 +158,13 @@ tbody {
     color: red;
 }
 
+tbody {
+    max-height: 700px;
+}
+
 tbody tr {
     cursor: pointer;
-    height: 40px;
+    height: 35px;
 }
 
 tbody tr td {

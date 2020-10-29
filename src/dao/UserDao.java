@@ -50,6 +50,16 @@ public class UserDao {
     public boolean insertUser(User user){
         boolean isInsert = false;
 
+        if(user.getUserName().equals("") ||
+                user.getCityName().equals("-请选择-") ||
+                user.getProvinceName().equals("-请选择-") ||
+                user.getCityName().equals("-请选择-") ||
+                user.getEmail().equals("") ||
+                user.getPassword().equals("")
+        ){
+            return isInsert;
+        }
+
         Connection con = JdbcUtil.getConnection();
         String sql = "INSERT into t_user (userName,password,chrName,email,provinceName,cityName) values(?,?,?,?,?,?)";
         String sql2 = "insert into t_role_user (userName,roleId) values(?,?)";
@@ -221,6 +231,24 @@ public class UserDao {
 
     public int updateUser(User user){
         int count = 0;
+
+        //此处待开发 不可删除 同等级管理员用户 或管理员本身
+        if(user.getUserName().equals("admin")){
+            count = -1;
+            return count;
+        }
+
+        if(user.getUserName().equals("") ||
+                user.getCityName().equals("-请选择-") ||
+                user.getProvinceName().equals("-请选择-") ||
+                user.getCityName().equals("-请选择-") ||
+                user.getEmail().equals("") ||
+                user.getPassword().equals("")
+        ){
+            return count;
+        }
+
+
         Connection con = JdbcUtil.getConnection();
         String sql = "update t_user set ";
         sql = sql + " chrName = '" + user.getChrName() + "',";
@@ -241,5 +269,39 @@ public class UserDao {
         JdbcUtil.closeAll(ps,con);
 
         return  count;
+    }
+
+    public boolean deleteUserByUserName(String userName){
+        boolean isSuccess = false;
+
+        if(userName.equals("admin")){
+            return isSuccess;
+        }
+
+        if(getUserByUserName(userName) == null){
+            return isSuccess;
+        }
+        Connection con = JdbcUtil.getConnection();
+        String sql_1 = "delete from t_role_user where userName = '" + userName + "'";
+        String sql_2 = "delete from t_user where userName = '" + userName + "'";
+        PreparedStatement ps = null;
+        try {
+            ps = con.prepareStatement(sql_1);
+            int count = ps.executeUpdate();
+            if(count == 1){
+                ps = con.prepareStatement(sql_2);
+                count = ps.executeUpdate();
+                if(count == 1){
+                    isSuccess = true;
+                }
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        JdbcUtil.closeAll(ps,con);
+
+        return isSuccess;
+
     }
 }

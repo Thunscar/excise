@@ -152,7 +152,7 @@
                         <select id="page_size">
                         <option>5</option>
                         <option selected>10</option>
-                        <option>20</option>
+                        <option>15</option>
                         </select>
                         <span>&nbsp;共</span>
                         <span id="total_data">0</span>
@@ -183,15 +183,15 @@
     <div id="pop_window_input">
         <p id="pop_window_title">注册</p>
         <label for="userName"></label>
-        <input type="text" id="pop_window_userName" class="_input" placeholder="用户名" onblur="userNameOnblur()" autocomplete="new-pop_window_userName">
+        <input type="text" id="pop_window_userName" class="_input" placeholder="用户名" autocomplete="new-pop_window_userName">
         <br><small class="errorInfo" id="userNameErrorInfo">errorInfo</small><br>
 
         <label for="chrName"></label>
-        <input type="text" id="pop_window_chrName" class="_input" placeholder="中文名" onblur="chrNameOnblur()" autocomplete="new-pop_window_chrName">
+        <input type="text" id="pop_window_chrName" class="_input" placeholder="中文名"  autocomplete="new-pop_window_chrName">
         <br><small class="errorInfo" id="chrNameErrorInfo">errorInfo</small><br>
 
         <label for="email"></label>
-        <input type="text" id="pop_window_email" class="_input" placeholder="邮箱" onblur="emailOnblur()" autocomplete="new-pop_window_email">
+        <input type="text" id="pop_window_email" class="_input" placeholder="邮箱"  autocomplete="new-pop_window_email">
         <br><small class="errorInfo" id="emailErrorInfo">errorInfo</small><br>
 
         <p>请选择地区</p>
@@ -204,15 +204,15 @@
         <br><small class="errorInfo" id="areaErrorInfo">errorInfo</small><br>
 
         <label for="password"></label>
-        <input type="password" id="pop_window_password" class="_input" placeholder="密码" onblur="passwordOnblur()" autocomplete="new-password">
+        <input type="password" id="pop_window_password" class="_input" placeholder="密码"  autocomplete="new-password">
         <br><small class="errorInfo" id="passwordErrorInfo">errorInfo</small><br>
 
         <label for="enterPassword"></label>
-        <input type="password" id="pop_window_enterPassword" class="_input" placeholder="确认密码" onblur="enterPasswordOnblur()" autocomplete="new-pop_window_enterPassword">
+        <input type="password" id="pop_window_enterPassword" class="_input" placeholder="确认密码" autocomplete="new-pop_window_enterPassword">
         <br><small class="errorInfo" id="enterPasswordErrorInfo">errorInfo</small><br>
 
         <input id="operaButton" type="button" value="" class="registerButton">
-        <br><small class="errorInfo" id="registerErrorInfo">errorInfo</small><br>
+        <br><small class="errorInfo" id="updateErrorInfo">errorInfo</small><br>
         <input id="closeButton" type="button" value="点击关闭" class="registerButton">
     </div>
 </body>

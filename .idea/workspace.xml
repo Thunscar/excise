@@ -7,195 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4d92d1d-ea18-402e-982c-a783aa91d342" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Login_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_8_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jdk1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_49.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/c-1_0-rt.tld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/c-1_1.tld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/c.tld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/classes/controller/LoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/classes/controller/checkPage/CenterOfUserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/classes/controller/checkPage/DownloadController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/classes/controller/checkPage/GetDownloadListController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/classes/controller/checkPage/ResourceManagerController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/classes/controller/checkPage/UserManagerController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/classes/controller/exitLoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/classes/controller/register/CheckUserNameServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/classes/controller/register/GetAreaServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/classes/controller/register/RegisterServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/classes/controller/verityCodeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/classes/dao/AreaDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/classes/dao/CreateImageDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/classes/dao/DownloadDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/classes/dao/ResourceDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/classes/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/classes/filter/AutoLoginFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/classes/filter/UserFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/classes/resource/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/classes/tools/JdbcUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/classes/vo/City.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/classes/vo/Download.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/classes/vo/Resource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/classes/vo/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/classes/vo/province.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/lib/gson-2.8.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.49.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/lib/taglibs-standard-compat-1.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/lib/taglibs-standard-jstlel-1.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/centerOfUser.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/css/download.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/css/error.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/css/register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/download.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/downloadRs/pubg.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/downloadRs/yxlm.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/images/download/pubg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/images/download/yxlm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/images/error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/images/img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/images/main.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/images/mainHeadIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/images/password.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/images/star1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/images/star2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/images/stars.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/images/userName.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/images/verifyCode.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/images/view.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/images/下载.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/images/向下箭头.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/images/箭头.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/js/download.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/js/exitTime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/js/jquery-3.1.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/js/register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/js/resource_controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/main.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/resourceManager.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Login_war_exploded/userManager.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/test/test.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Login/controller/LoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Login/controller/checkPage/CenterOfUserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Login/controller/checkPage/DownloadController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Login/controller/checkPage/GetDownloadListController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Login/controller/checkPage/ResourceManagerController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Login/controller/checkPage/UserManagerController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Login/controller/exitLoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Login/controller/register/CheckUserNameServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Login/controller/register/GetAreaServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Login/controller/register/RegisterServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Login/controller/verityCodeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Login/dao/AreaDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Login/dao/CreateImageDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Login/dao/DownloadDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Login/dao/ResourceDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Login/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Login/filter/AutoLoginFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Login/filter/UserFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Login/resource/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Login/tools/JdbcUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Login/vo/City.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Login/vo/Download.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Login/vo/Resource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Login/vo/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Login/vo/province.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/checkPage/CenterOfUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/checkPage/DownloadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/checkPage/GetDownloadListController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/checkPage/ResourceManagerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/checkPage/UserManagerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/exitLoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/register/CheckUserNameServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/register/GetAreaServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/register/RegisterServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/verityCodeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/AreaDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/CreateImageDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/DownloadDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/ResourceDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/filter/AutoLoginFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/filter/UserFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tools/JdbcUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vo/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vo/Download.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vo/Resource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vo/province.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/c-1_0-rt.tld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/c-1_1.tld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/c.tld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/gson-2.8.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.49.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/taglibs-standard-compat-1.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/taglibs-standard-jstlel-1.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/centerOfUser.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/download.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/error.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/resource_controller.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/download.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/downloadRs/pubg.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/downloadRs/yxlm.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/download/pubg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/download/yxlm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/main.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/mainHeadIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/password.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/star1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/star2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/stars.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/userName.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/verifyCode.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/view.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/下载.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/向下箭头.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/箭头.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/download.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/exitTime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/jquery-3.1.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/resource_controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/main.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resourceManager.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/userManager.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/main/user_center/GetUserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/main/user_manager/GetUserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/main/user_center/GetUserList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/main/user_manager/GetUserList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/main/user_center/UpdateUserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/main/user_manager/UpdateUserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/resource_controller.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/resource_controller.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/resource_controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/resource_controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/test.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -228,7 +49,7 @@
     <session id="-514925101">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="81" />
+          <entry key="project.closed" value="82" />
           <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.10" value="5" />
           <entry key="project.open.time.11" value="1" />
@@ -240,11 +61,11 @@
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.5" value="3" />
-          <entry key="project.open.time.6" value="16" />
+          <entry key="project.open.time.6" value="17" />
           <entry key="project.open.time.7" value="16" />
           <entry key="project.open.time.8" value="19" />
           <entry key="project.open.time.9" value="11" />
-          <entry key="project.opened" value="87" />
+          <entry key="project.opened" value="88" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -253,7 +74,7 @@
           <entry key="class" value="3" />
           <entry key="css" value="14" />
           <entry key="html" value="22" />
-          <entry key="java" value="206" />
+          <entry key="java" value="208" />
           <entry key="jpg" value="2" />
           <entry key="js" value="39" />
           <entry key="jsp" value="50" />
@@ -270,7 +91,7 @@
           <entry key="CSS" value="14" />
           <entry key="HTML" value="22" />
           <entry key="Image" value="18" />
-          <entry key="JAVA" value="206" />
+          <entry key="JAVA" value="208" />
           <entry key="JSP" value="50" />
           <entry key="JavaScript" value="39" />
           <entry key="PLAIN_TEXT" value="2" />
@@ -283,7 +104,7 @@
           <entry key="css" value="3759" />
           <entry key="dummy" value="30" />
           <entry key="html" value="1252" />
-          <entry key="java" value="25119" />
+          <entry key="java" value="27010" />
           <entry key="js" value="2155" />
           <entry key="jsp" value="4860" />
           <entry key="properties" value="22" />
@@ -294,7 +115,7 @@
         <counts>
           <entry key="CSS" value="3759" />
           <entry key="HTML" value="1252" />
-          <entry key="JAVA" value="25108" />
+          <entry key="JAVA" value="26999" />
           <entry key="JSP" value="4860" />
           <entry key="JavaScript" value="2155" />
           <entry key="PLAIN_TEXT" value="30" />
@@ -307,27 +128,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/filter/UserFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1656">
-              <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2400">
-              <caret line="100" column="25" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/js/register.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -350,10 +150,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/main/user_center/GetUserList.java">
+        <entry file="file://$PROJECT_DIR$/src/controller/main/user_manager/GetUserList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="432">
+              <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -362,7 +162,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/main/user_center/GetUserInfo.java">
+        <entry file="file://$PROJECT_DIR$/src/controller/main/user_manager/GetUserInfo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="720">
               <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
@@ -370,20 +170,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/controller/main/user_center/UpdateUserServlet.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/main/user_manager/UpdateUserServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="168">
+              <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/main/user_manager/DeleteUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/main/user_manager/InsertUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5448">
-              <caret line="235" column="39" selection-start-line="235" selection-start-column="39" selection-end-line="235" selection-end-column="39" />
+            <state relative-caret-position="334">
+              <caret line="285" column="40" lean-forward="true" selection-start-line="285" selection-start-column="40" selection-end-line="285" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -424,6 +242,11 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>insert</find>
+      <find>update</find>
+      <find>de</find>
+    </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
@@ -437,9 +260,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/userManager.jsp" />
-        <option value="$PROJECT_DIR$/web/resourceManager.jsp" />
-        <option value="$PROJECT_DIR$/web/centerOfUser.jsp" />
         <option value="$PROJECT_DIR$/web/css/download.css" />
         <option value="$PROJECT_DIR$/src/dao/VisitDao.java" />
         <option value="$PROJECT_DIR$/src/controller/verityCodeController.java" />
@@ -486,8 +306,11 @@
         <option value="$PROJECT_DIR$/src/controller/checkPage/ResourceManagerController.java" />
         <option value="$PROJECT_DIR$/src/controller/main/user_center/GetUserList.java" />
         <option value="$PROJECT_DIR$/src/controller/main/user_center/GetUserInfo.java" />
-        <option value="$PROJECT_DIR$/src/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/controller/main/user_center/UpdateUserServlet.java" />
+        <option value="$PROJECT_DIR$/src/controller/main/user_manager/InsertUser.java" />
+        <option value="$PROJECT_DIR$/src/controller/main/user_manager/UpdateUserServlet.java" />
+        <option value="$PROJECT_DIR$/src/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/controller/main/user_manager/DeleteUser.java" />
       </list>
     </option>
   </component>
@@ -516,7 +339,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="445" />
     <option name="y" value="55" />
     <option name="width" value="370" />
@@ -530,6 +353,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -560,7 +384,7 @@
               <item name="Login" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="user_center" type="462c0819:PsiDirectoryNode" />
+              <item name="user_manager" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Login" type="b2602c69:ProjectViewProjectNode" />
@@ -607,7 +431,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -617,7 +440,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603903429744" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603983657270" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -827,12 +650,13 @@
       <workItem from="1603812730540" duration="1188000" />
       <workItem from="1603850816892" duration="16331000" />
       <workItem from="1603947215796" duration="2347000" />
-      <workItem from="1603951259194" duration="257000" />
+      <workItem from="1603951259194" duration="1321000" />
+      <workItem from="1603957594176" duration="14291000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="296677000" />
+    <option name="totallyTimeSpent" value="312032000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -844,19 +668,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.471875" visible="true" weight="0.2660858" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.470922" visible="true" weight="0.26876676" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" sideWeight="0.528125" side_tool="true" weight="0.3" />
+      <window_info id="Web" order="7" sideWeight="0.529078" side_tool="true" weight="0.26876676" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32765958" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4966488" visible="true" weight="0.55886525" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4966488" visible="true" weight="0.38297874" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -914,7 +739,7 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/controller/main/user_center/GetUserList.java</url>
+          <url>file://$PROJECT_DIR$/src/controller/main/user_manager/GetUserList.java</url>
           <line>60</line>
           <properties />
           <option name="timeStamp" value="6" />
@@ -927,14 +752,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/centerOfUser.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/VisitDao.java" />
     <entry file="file://$PROJECT_DIR$/src/dao/DownloadDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1218,27 +1035,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/main/user_center/GetUserList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/main/user_center/GetUserInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/controller/main/user_manager/GetUserInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5448">
-          <caret line="235" column="39" selection-start-line="235" selection-start-column="39" selection-end-line="235" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -1260,10 +1060,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/main/user_center/UpdateUserServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/controller/main/user_manager/GetUserList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="432">
+          <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/main/user_manager/UpdateUserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/main/user_manager/InsertUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/main/user_manager/DeleteUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="285" column="40" lean-forward="true" selection-start-line="285" selection-start-column="40" selection-end-line="285" selection-end-column="40" />
         </state>
       </provider>
     </entry>

@@ -21,7 +21,7 @@ $(document).ready(function() {
 
     //设置用户操作弹出框监听鼠标事件
     $("#user_controller").mouseover(function() {
-        $("#user_opera_window").show(200);
+        $("#user_opera_window").show(100);
     });
 
     $("#user_controller").mouseleave(function(e) {
@@ -33,7 +33,7 @@ $(document).ready(function() {
         var x1 = windowDiv.offset().left;
         var x2 = x1 + windowDiv.width();
         if (x < x1 || x > x2 || y < y1 || y > y2) {
-            $("#user_opera_window").hide(200);
+            $("#user_opera_window").hide(100);
         }
     });
 
@@ -46,7 +46,7 @@ $(document).ready(function() {
         var x1 = windowDiv.offset().left;
         var x2 = x1 + windowDiv.width();
         if (x < x1 || x > x2 || y < y1 || y > y2) {
-            $("#user_opera_window").hide(200);
+            $("#user_opera_window").hide(100);
         }
 
     });

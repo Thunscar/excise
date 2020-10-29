@@ -1,4 +1,4 @@
-package controller.main.user_center;
+package controller.main.user_manager;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
