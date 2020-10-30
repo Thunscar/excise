@@ -80,6 +80,8 @@ table thead tr th.select {
     height: 30px;
     border-radius: 10px;
     border-width: 1px;
+    border-color: black;
+    padding-left: 3px;
 }
 
 .input:focus {

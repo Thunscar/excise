@@ -4,7 +4,8 @@ $(document).ready(function() {
      * 初始化操作
      */
     //查询条件信息
-
+    //记录当前所在页码
+    var page_flag = "1";
     //加载弹出框省份选择框
     fillProvince();
     //省份改变监听事件
@@ -15,6 +16,7 @@ $(document).ready(function() {
     $("#page_size").change(function(e) {
         $("#page_num").text("1");
         $("#total_page").text("1");
+        page_flag = "1";
         doQuery();
     });
 
@@ -24,6 +26,9 @@ $(document).ready(function() {
     //表格 用户名 省份 城市 排序状态
     var table_userName_status = 0;
     var table_province_status = 0;
+
+
+
 
     doQuery();
     //全选 复选框点击绑定事件
@@ -42,7 +47,11 @@ $(document).ready(function() {
      **/
 
     //查找按钮点击事件
-    $("#search_btn").click(doQuery);
+    $("#search_btn").click(function(e) {
+        page_flag = "1";
+        $("#page_num").text("1");
+        doQuery();
+    });
 
     //清空按钮点击事件
     $("#clean_btn").click(function(e) {
@@ -97,6 +106,9 @@ $(document).ready(function() {
         });
 
         alert("删除用户" + deleteUsers + " 成功!");
+
+        //将页码设置为当前页
+        page_flag = $("#page_num").text();
         doQuery();
 
     });
@@ -605,9 +617,13 @@ $(document).ready(function() {
             success: function(response) {
                 if (response.code == 0) { //删除成功
                     alert(response.message);
+                    //将页码设置为1
+
                 } else { //删除失败
                     alert(response.message);
                 }
+                page_flag = $("#page_num").text();
+                doQuery();
             }
         });
     });
@@ -759,6 +775,9 @@ $(document).ready(function() {
                 //将页面数据设置为空
                 $("#pop_window").removeClass("show");
                 $("#pop_window_input").removeClass("show");
+
+                //将页码设置为当前页面
+                page_flag = $("#page_num").text();
                 doQuery();
             }
         });
@@ -811,6 +830,11 @@ $(document).ready(function() {
                     alert(response.message);
                     $("#pop_window").removeClass("show");
                     $("#pop_window_input").removeClass("show");
+
+                    //将页码设置为1
+                    $("#page_num").text("1");
+                    //查询后 页码设置位置
+                    page_flag = "1";
                     doQuery();
                 } else {
                     alert(response.message);
@@ -960,7 +984,7 @@ $(document).ready(function() {
                 $("#total_data").text(total);
                 $("tbody").empty();
                 if (users.length != 0) {
-                    $("#page_num").text(1);
+                    $("#page_num").text(page_flag);
                 }
                 $.each(users, function(index, user) {
                     var s = JSON.stringify(user);
@@ -1013,7 +1037,7 @@ $(document).ready(function() {
             $("#userNameErrorInfo").text("用户名不可以为空！");
             $("#userNameErrorInfo").addClass("error");
         } else if (!partten.exec($(this).val())) {
-            $("#userNameErrorInfo").text("用户名必须由字母和数字组成，且以字母开头!");
+            $("#userNameErrorInfo").text("用户名必须由字母开头，可以包含数字，长度为4-15位!");
             $("#userNameErrorInfo").addClass("error");
         } else {
             $("#userNameErrorInfo").text("errorInfo");
